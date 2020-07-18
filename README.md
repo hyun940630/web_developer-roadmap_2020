@@ -20,6 +20,54 @@
   Git 저장소 초기화 세팅
   `git init`
   
+  원격 저장소로부터 복제
+  `git clone {repo url}`
+  
+  변경 사항 체크(git add 이후 이전 snapshot과의 변경 사항을 보여줌)
+  `git status`
+  
+  특정 파일 스테이징
+  `git add {file name}`
+  
+  변경된 모든 파일 스테이징
+  `git add .`
+  `git add *`
+  
+  커밋
+  `git commit -m "{commit message}"`
+  
+  Remote Repository에 update하기(원격 저장소로 올리기)
+  `git push origin master`
+  
+  원격저장소 추가
+  `git remote add origin {remote repo url}`
+  
+  
+  Commit
+  
+  커밋 합치기
+  `git rebase -i HEAD~4` // 최신 4개의 커밋을 하나로 합칩니다.
+  
+  커밋 메세지 수정
+  `git commit --amend` // 마지막 커밋 메세지 수정(ref)
+  
+  간단한 commit 방법
+  `git add {changed file name}`
+  `git commit -m "{commit message}"`
+  
+  커밋 이력 확인
+  `git log` // 모든 커밋 로그 확인
+  `git log -3` // 최근 3개 커밋로그 확인
+  `git log --pretty=oneline` // 각 커밋을 한 줄로 표시
+  `git reflog` // reset 혹은 rebase로 없어진 과걱의 커밋 이력 확인
+  
+   커밋 취소
+   `git reset HEAD^` // 마지막 커밋 삭제
+   
+  
+  
+  
+  
   
  - Basic Terminal Usage
  - Data Structures & Algorithms
