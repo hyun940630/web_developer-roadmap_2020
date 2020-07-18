@@ -8,6 +8,19 @@
 😎 Front-end Developer
 
  - Git - version control
+  > Using Git - 자주 사용하는 Git 명령어 모음
+  구조
+  코드는 아래 세 단계에 걸쳐 저장된다.
+  staging >> commit >> remote repository
+  1. `git add {file name}`으로 파일을 staging 상태에 놓는다.
+  2. `git commit -m "{commit message}"`으로 staging에 있는 모든 변경사항을 commit 한다.
+  3. `git push`로 커밋된 저장소를 remote repository로 밀어 넣는다.
+  
+  기본 명령어
+  Git 저장소 초기화 세팅
+  `git init`
+  
+  
  - Basic Terminal Usage
  - Data Structures & Algorithms
  - Github
